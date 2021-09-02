@@ -1,0 +1,103 @@
+{
+  "stationCollection": [
+    {
+      "id": "01",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Tramore",
+      "lat": "52.16",
+      "lng": "-7.152",
+      "readings": [
+        {
+          "id": "02",
+          "date": "Jan 01 2021 01:00:00",
+          "code": 800,
+          "temperature": 0.5,
+          "windSpeed": 3.5,
+          "pressure": 1001,
+          "windDirection": 90
+        },
+        {
+          "id": "03",
+          "date": "Jan 01 2021 01:00:00",
+          "code": 600,
+          "temperature": 6,
+          "windSpeed": 2,
+          "pressure": 1004,
+          "windDirection": 96
+        },
+        {
+          "id": "04",
+          "date": "Jan 01 2021 01:00:00",
+          "code": 700,
+          "temperature": 8,
+          "windSpeed": 1,
+          "pressure": 1005,
+          "windDirection": 101
+        }
+      ],
+      "windBeauford": 0,
+      "codeToText": "Snow",
+      "temperature": 8,
+      "calculateCelcius": 8,
+      "calculateFahrenheit": "46.4",
+      "windDirection": "East",
+      "windSpeed": 1,
+      "windChill": "9.9",
+      "pressure": 1005,
+      "minWind": 1,
+      "minTemp": 0.5,
+      "minPressure": 1001,
+      "maxWind": 3.5,
+      "maxTemp": 8,
+      "maxPressure": 1005,
+      "trendTemp": "arrow up",
+      "trendWind": "arrow down",
+      "trendPress": "arrow up"
+    },
+    {
+      "id": "05",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Dunmore",
+      "lat": "52.149",
+      "lng": "-6.994",
+      "readings": [
+        {
+          "id": "06",
+          "date": "Jan 01 2021 01:00:00",
+          "code": 700,
+          "temperature": 8,
+          "windSpeed": 1,
+          "pressure": 999,
+          "windDirection": 98
+        },
+        {
+          "id": "07",
+          "date": "Jan 01 2021 01:00:00",
+          "code": 200,
+          "temperature": 0.5,
+          "windSpeed": 3.5,
+          "pressure": 1000,
+          "windDirection": 102
+        }
+      ],
+      "windBeauford": 1,
+      "codeToText": "Partial Clouds",
+      "temperature": 0.5,
+      "calculateCelcius": 0.5,
+      "calculateFahrenheit": "32.9",
+      "windDirection": "East South-East",
+      "windSpeed": 3.5,
+      "windChill": "-0.2",
+      "pressure": 1000,
+      "minWind": 1,
+      "minTemp": 0.5,
+      "minPressure": 999,
+      "maxWind": 3.5,
+      "maxTemp": 8,
+      "maxPressure": 1000,
+      "trendTemp": "minus circle",
+      "trendWind": "minus circle",
+      "trendPress": "minus circle"
+    }
+  ]
+}

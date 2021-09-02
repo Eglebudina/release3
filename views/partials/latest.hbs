@@ -1,0 +1,65 @@
+
+<section class="ui segment">
+      <div class="ui four cards inverted">
+        <div class="card">
+            <div class="extra">
+                <i class="cloud sun icon blue huge right floated"></i>
+                <h2 class="header left aligned">{{codeToText}}</h3>
+            </div>
+            <div class="content extra">
+                <h2 class="header left aligned">
+                   Location: {{station.name}}
+                </h2>
+               <div class="ui list left aligned">
+                  <li class="header">Lat: {{station.lat}}</li>
+                  <li class="header">Lng: {{station.lng}}</li>
+                </div>
+            </div>
+        </div>
+         
+        <div class="card">
+          <div class="extra">
+            <i class="temperature high icon red huge right floated"></i>
+            <h2 class="header left aligned">Temp</h2>
+            <ul class="ui list left aligned">
+            <li class="header">{{calculateCelcius}} C</li>
+            <li class="header">{{calculateFahrenheit}} F</li>
+              <div class="ui divider"></div>
+              <li class="header">Min: {{minTemp}}</li>
+              <li class="header">Max: {{maxTemp}}</li>
+              <li> Trend: <i class="{{trendTemp}} icon red"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="extra">
+             <i class="wind icon green huge right floated "></i>
+            <h2 class="header left aligned">Wind</h2>
+            <ul class="ui list left aligned">
+            <li class="header">{{windBeauford}} bft </li>
+            <li class="header">{{windDirection}} </li>
+            <li class="header">Feels like </li>
+            <li class="header">{{windChill}} </li>
+              <div class="ui divider"></div>
+              <li class="header">Min: {{minWind}}</li>
+              <li class="header">Max: {{maxWind}}</li>
+              <li> Trend: <i class="{{trendWind}} icon green"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="extra">
+             <i class="compress arrows alternate icon yellow huge right floated "></i>
+            <h2 class="header left aligned">Pressure</h2>
+            <ul class="ui list left aligned">
+              <li class="header">{{pressure}} hpa</li>
+              <div class="ui divider"></div>
+              <li class="header">Min: {{minPressure}}</li>
+              <li class="header">Max: {{maxPressure}}</li>
+              <li> Trend: <i class="{{trendPress}} icon yellow"></i></li>
+            </ul>
+          </div>
+        </div>
+       
+      </div>
+</section>
